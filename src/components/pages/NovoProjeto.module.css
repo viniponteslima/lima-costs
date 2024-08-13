@@ -1,0 +1,14 @@
+.novoProjeto_container {
+    width: 450px;
+    margin: 0  auto;
+    padding: 3em;
+    color: var(--blue);
+}
+
+.novoProjeto_container h1 {
+    margin-bottom: .5em;
+}
+
+.novoProjeto_container p {
+    opacity: .75;
+}

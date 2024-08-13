@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue);
+    padding: 1em;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1em;
+}
+
+header ul li a {
+    padding: .25em 0;
+    text-decoration: none;
+    color: var(--white);
+    transition: all .1s linear;
+}
+
+header ul li a:hover {
+    color: var(--yellow);
+    border-bottom: 2px solid var(--yellow);
+}

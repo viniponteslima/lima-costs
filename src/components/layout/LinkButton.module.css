@@ -1,0 +1,11 @@
+.btn {
+    background: var(--blue);
+    color: var(--white);
+    padding: .5em 1em;
+    transition: .2s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: var(--yellow);
+}

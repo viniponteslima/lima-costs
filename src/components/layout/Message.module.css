@@ -1,0 +1,35 @@
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000bf;
+    z-index: 999;
+}
+
+.message span {
+    padding: 1em;
+    background-color: var(--white);
+    border: 3px solid var(--black);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.message span.success {
+    color: #155724;
+    background-color: #D4EDDA;
+    border-color: #155724;
+}
+
+.message span.error {
+    color: #721C24;
+    background-color: #F8D7DA;
+    border-color: #721C24;
+}
